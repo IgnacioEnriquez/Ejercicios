@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+.div-black
+{
+    display: flex;
+       
+    width: 1000px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content:center;
+}
+
+.div-white
+{
+    display: flex;
+       
+    width: 1000px;
+    color: black;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-blue
+{
+    display: flex;
+       
+    width: 1000px;
+    color: #0a2ff1;
+    background-color: white;
+    align-items: center;
+    justify-content:center;    
+}
+
+.black-size
+{
+    height: 250px;
+}
+
+.descuento-size
+{
+    height: 100px;   
+}
+
+.notelopierdas-size
+{
+    height: 200px;   
+}
+
+.black
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.semibold
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+h1
+{
+    font-size: 217.33px;
+}
+
+h2
+{
+    font-size: 197.33px;
+}
+
+h3
+{
+    font-size: 66.66px;
+}
+
+h4
+{
+    font-size: 48px;
+    color: #0a2ff1;
+}
+
+h4 strong
+{
+    font-size: 60px;    
+}
+
+h5
+{
+    font-size: 58.66px;
+}
