@@ -1,0 +1,51 @@
+body
+{
+    margin: 10px;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.main
+{
+    display: flex;
+    gap: 3px;
+
+}
+
+.opciones
+{
+    display: flex;
+    background-color: rgb(50, 132, 240);
+    height: 1000px;
+    width: 20%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 30px;  
+    gap: 5px;
+}
+
+div a
+{
+    text-decoration: none;
+    color: black;
+    padding-left: 80px;
+}
+
+div a:hover
+{
+    color: cadetblue ;
+
+}
+
+.contenido
+{
+    display: flex;
+
+    background-color: rgb(78, 189, 197);
+    height: 1000px;
+    width: 80%;
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: flex;
+
+}
