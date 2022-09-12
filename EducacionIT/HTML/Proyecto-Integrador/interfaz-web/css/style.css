@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+
+/*GENERALES*/
+*
+{
+    box-sizing: border-box;   
+}
+
+h2,h3
+{
+    background-color: yellow;
+}
+
+/* div,
+nav,
+img
+{
+    border:1px solid black;
+} */
+
+
+/*CUERPO COMPLETO*/
+body
+{
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.separador
+{
+    border: 1px solid gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 2px;
+}
+
+
+/*HEADER DE LA PAGINA WEB */
+
+header
+{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;    
+}
+
+.div-logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   
+    height: 50%;
+    width: 16%;
+}
+.nav
+{    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;   
+    width: 28%;
+    height: 50%;
+    gap: 50px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+nav a:hover
+{
+    background-color: gray;
+    color: black;
+}
+
+.logo,
+h1 strong
+{
+    display: inline;
+    font-family: 'Coiny', cursive;
+    background-color: unset;
+}
+
+.logo
+{
+    font-size: 40px;
+
+}
+
+
+
+
+/*MAIN DE LA PAGINA WEB*/
+
+
+/*SECTION PRESENTACION*/
+.presentacion
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 40%;    
+    margin-top: 50px;
+    width: 100%;
+    height: 790px;   
+}
+
+h1
+{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    width: 100%;
+    line-height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 strong
+{
+    font-size: 100px;
+}
+
+img
+{
+    width: 300px;
+    height: 300px;
+}
+
+.img-inicio
+{
+    width: 85%;
+    height: 100%;
+}
+
+.subtitle
+{
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    width: 79%;
+}
+
+.p-subtitle
+{
+    font-size: 26px;
+    height: 50%;
+    width: 80%;
+}
+
+
+.div-img-inicio
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inicio-title
+{
+    display: inline-block;    
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;    
+    font-size: 30px;
+}
+
+.mar-izq
+{
+    margin-left: 75px;
+}
+
+.p-saludo,
+.p-redes
+{
+    height: 50%;
+    width: 95%;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.p-redes
+{
+    width: 93%;
+}
+
+/*SECTION SERVICIOS*/
+
+.servicios
+{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.serv-img img
+{
+    width: 95%;
+    height: 100%;
+}
+
+.serv-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ol
+{   
+    margin: 0;
+    padding: 0;
+    font-size: 29px;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+ol li
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.serv-title
+{
+    font-size: 45px;
+    display: inline-block;
+    background-color:unset;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.yellow-list
+{
+    width: 480px;
+    background-color: yellow;
+    font-size: 35px;
+    font-weight: bold;
+}
+/*SECTION CONTACTO*/
+
+.contacto
+{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.contacto-titles h4
+{
+    display: inline;
+    font-size: 54px;
+    line-height: 90px;
+
+    background-color: black;
+    color: white;
+}
+
+.contacto-title
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.p-consulta
+{
+    margin-top: 24px;
+    width: 52%;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type="reset"],
+button
+{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 151px;
+
+}
+
+input[type="email"],
+input[type="text"],
+textarea
+{
+    height: 30px;
+    width: 300px;
+}
+
+label,
+textarea
+{
+    display: block;
+}
+
+textarea
+{
+    height: 100px;
+}
+
+.ast-red
+{
+    color: red;
+}
